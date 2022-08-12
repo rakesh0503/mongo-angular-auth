@@ -7,8 +7,8 @@
 /bazel-out
 
 # Node
-./angular-application/node_modules
-./mongo-server/node_modules
+/angular-application/node_modules
+/mongo-server/node_modules
 /node_modules
 npm-debug.log
 yarn-error.log
@@ -31,7 +31,7 @@ yarn-error.log
 .history/*
 
 # Miscellaneous
-./angular-application/.angular/cache'
+/angular-application/.angular/cache'
 /.angular/cache
 .sass-cache/
 /connect.lock
