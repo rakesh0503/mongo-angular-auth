@@ -7,9 +7,9 @@
 /bazel-out
 
 # Node
-/angular-application/node_modules
-/mongo-server/node_modules
-/node_modules
+# /angular-application/node_modules
+# # /mongo-server/node_modules
+# /node_modules
 npm-debug.log
 yarn-error.log
 
@@ -46,3 +46,5 @@ Thumbs.db
 
 # .env
 **/.env
+**/node_modules
+**/.angular
